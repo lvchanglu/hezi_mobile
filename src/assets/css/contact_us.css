@@ -1,0 +1,55 @@
+.contact_us .contact_banner {
+  height: 4.66rem;
+  background: url('../img/contact.png');
+  background-size: 100% 100%;
+}
+.contact_us .contact_banner .banner_contain {
+  padding: 1.5rem;
+}
+.contact_us .contact_banner .banner_contain h3 {
+  font-size: 0.5rem;
+  color: #fff;
+}
+.contact_us .contact_banner .banner_contain .hengxian {
+  width: 0.5rem;
+  height: 0.04rem;
+  background: #fff;
+  margin: 0.3rem 0;
+}
+.contact_us .contact_banner .banner_contain p {
+  font-size: 0.36rem;
+  color: #fff;
+  margin-bottom: 0.1rem;
+}
+.contact_us .map {
+  width: 100%;
+  height: 4rem;
+}
+.contact_us .swiper-container .swiper-wrapper .swiper-slide {
+  background-size: 100% 100% !important;
+  text-align: center;
+  color: #fff;
+}
+.contact_us .swiper-container .swiper-wrapper .swiper-slide .mask {
+  background: rgba(1, 1, 1, 0.5);
+  height: 4.7rem;
+}
+.contact_us .swiper-container .swiper-wrapper .swiper-slide .city_e {
+  font-size: 0.28rem;
+  padding: 0.6rem 0 0.15rem 0;
+}
+.contact_us .swiper-container .swiper-wrapper .swiper-slide .city {
+  font-size: 0.36rem;
+  padding-bottom: 0.74rem;
+}
+.contact_us .swiper-container .swiper-wrapper .swiper-slide .content {
+  text-align: left;
+  line-height: 0.3rem;
+  margin: 0 auto;
+  font-size: 0.28rem;
+  width: 5.4rem;
+}
+.contact_us .swiper-container .swiper-wrapper .swiper-slide .content .context {
+  padding-left: 0.6rem;
+  padding: 0.2rem;
+}

@@ -1,0 +1,145 @@
+
+
+// banner
+.coreteam_banner{
+	height: 4.66rem;
+	background: url('../img/coreteam_banner.png');
+	background-size: 100% 100%;
+	.banner_contain{
+		padding: 1rem 0 0 1rem;
+		h3{
+			font-size: 0.5rem;
+			color: #fff;
+		}
+		.hengxian{
+			width: 0.5rem;
+			height: 0.04rem;
+			background: #fff;
+			margin: 0.3rem 0;
+		}
+		p{
+			font-size: 0.36rem;
+			color: #fff;
+			margin-bottom: 0.1rem;
+		}
+	}
+}
+// 成员介绍
+.member{
+	color: #fff;
+	font-size: 0.28rem;
+	overflow: hidden;
+	background: #333;
+	margin-top: 0.1rem;
+	padding: 0.5rem 0.2rem;
+	box-sizing: border-box;
+	height: 8.8rem;
+	.base{
+		.img{
+			width: 3rem;
+			height: 3rem;
+			// background: url('../img/liuhaifeng.png');
+			background-size:cover !important;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.post{
+			display: inline-block;
+			vertical-align: middle;
+			width: 3.8rem;
+			padding-left: 0.3rem;
+			li:first-child{
+				font-size: 0.4rem;
+				margin-bottom:0.1rem ;
+			}
+			li{
+				line-height: 0.45rem;
+				// height: 0.4rem;
+			}
+		}
+	}
+	.more{
+		margin-top: 0.35rem;
+		p{
+			line-height: 0.5rem;
+			padding:0 0.2rem;
+		}
+	}
+}
+// 我们的团队
+.ourteam{
+	background: #333;
+	color:#fff;
+	font-size: 0.28rem;
+	margin-bottom: 0.5rem;
+	// 轮播
+	.swiper-container{
+		// position: relative;
+		.swiper-wrapper{
+			.swiper-slide{
+				height: 4.14rem;
+				background: url('../img/team.png');
+				background-size: cover;
+			}
+		}
+		.swiper-button-next,.swiper-button-prev{
+			// font-size: 0.74rem;
+			width: 0.5rem;
+			background-size: contain;
+		}
+		.swiper-button-next{
+			right: 0;
+			background-image:url(../img/next.png); 
+		}
+		.swiper-button-prev{
+			left: 0;
+			background-image:url(../img/prev.png);
+		}
+		.left,.right{
+			height: 4.14rem;
+			width: 0.5rem;
+			background: #333;
+			opacity: 0.4;
+			position: absolute;
+			z-index: 1;
+			top: 0;
+		}
+		.left{
+			left: 0;		
+		}
+		.right{
+			right: 0;
+		}
+	}
+		
+	.slogan{
+		height: 2.74rem; 
+		padding-left: 0.78rem;
+		padding-top: 0.48rem;	
+		box-sizing: border-box;
+		.title{
+			font-size:0.36rem;
+		}
+		.hengxian{
+			width: 0.5rem;
+			height: 0.02rem;
+			background: #fff;
+			margin: 0.2rem 0;
+		}
+		.item{
+			font-size: 0.28rem;
+			width: 6rem;
+			line-height: 0.5rem;
+			height: 0.5rem;
+		}
+	}
+}
+// 团队成员
+.teammember{
+	.swiper-container{
+		padding-bottom: 0.86rem;
+	}
+	.swiper-container-horizontal>.swiper-pagination-bullets{
+		bottom: 0.1rem;
+	}
+}

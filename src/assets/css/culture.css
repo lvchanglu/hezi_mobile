@@ -1,0 +1,66 @@
+.culture {
+  width: 100%;
+}
+.culture .culture_banner {
+  height: 4.66rem;
+  background: url('../img/culture_banner.png');
+  background-size: 100% 100%;
+}
+.culture .culture_banner .banner_contain {
+  padding: 1rem;
+}
+.culture .culture_banner .banner_contain h3 {
+  font-size: 0.5rem;
+  color: #fff;
+}
+.culture .culture_banner .banner_contain .hengxian {
+  width: 0.5rem;
+  height: 0.04rem;
+  background: #fff;
+  margin: 0.3rem 0;
+}
+.culture .culture_banner .banner_contain p {
+  font-size: 0.36rem;
+  color: #fff;
+  margin-bottom: 0.1rem;
+}
+.culture .item {
+  width: 100%;
+}
+.culture .item .item_banner img {
+  height: 3rem;
+  width: 7.5rem;
+}
+.culture .item h3 {
+  font-size: 0.4rem;
+  padding-left: 0.62rem;
+  margin-top: 0.5rem;
+}
+.culture .item .c_value {
+  color: #183074;
+  margin-bottom: 0.4rem;
+}
+.culture .item .hengxian {
+  width: 0.3rem;
+  height: 0.02rem;
+  background: #3a3a3a;
+  margin: 0.2rem 0.62rem;
+}
+.culture .item .discribe {
+  padding: 0 0.62rem;
+  color: #3a3a3a;
+}
+.culture .culture_bottom {
+  overflow: hidden;
+  height: 3.2rem;
+  background: url('../img/culture_bottom.png');
+  background-size: cover;
+}
+.culture .culture_bottom .vision {
+  font-size: 0.38rem;
+  color: #fff;
+  width: 6.84rem;
+  margin: 0 auto;
+  margin-top: 1.35rem;
+  font-weight: bold;
+}

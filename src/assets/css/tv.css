@@ -1,0 +1,35 @@
+.tv {
+  height: 6.15rem;
+  background: url('../../assets/img/tv.png');
+  background-size: cover;
+}
+.tv h3 {
+  font-size: 0.4rem;
+  color: #fff;
+  text-align: center;
+  padding-top: 0.9rem;
+}
+.tv .video_box {
+  text-align: center;
+  margin-top: 0.3rem;
+}
+.tv .video_box video {
+  width: 6.5rem;
+  height: 3.6rem;
+}
+.tv .video_box .mask {
+  position: absolute;
+  display: inline-block;
+  width: 6.5rem;
+  height: 3.6rem;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.tv .video_box .play {
+  width: 0.86rem;
+  height: 0.86rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

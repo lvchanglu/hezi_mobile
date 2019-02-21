@@ -1,0 +1,116 @@
+// 导航栏
+nav{
+	.nav_top {
+		position: relative;
+		height:1.2rem;
+		img{
+			position: absolute;
+			top:50%;
+			transform: translateY(-50%);
+		}
+		.logo{
+			width: 1.03rem;
+			height: 0.54rem;
+			position: absolute;
+			left: 0.3rem;
+		}
+		.start{
+			width: 0.6rem;
+			height: 0.32rem;
+			right: 0.2rem;          
+		}
+	}
+		
+	.nav_bar{
+		height: 20rem;
+		background: #fff;
+		.left,.right{
+			float: left;
+			height: 100%;
+		}
+		.left{
+			width: 2.55rem;
+			>img{
+				width: 0.44rem;
+				height: 0.32rem;
+				margin-left: 1.5rem;
+				margin-top: 0.4rem;
+			}
+		}
+		.right{
+			width: 4.95rem;
+			.r_top{
+				padding-left: 0.4rem;
+				background: #333;
+				>div{
+					color: #fff;
+					height: 1.2rem;
+					line-height: 1.2rem;
+					span,img{
+						vertical-align: middle;
+						display: inline-block;
+					}
+				}
+				.t_1{
+					font-size: 0.3rem;
+					>span{	
+
+					}
+					>img{
+						margin-left: 2.58rem;
+						width: 0.35rem;
+						height: 0.35rem;		
+					}
+				}
+				.t_2{
+					font-size: 0.36rem;
+					img{
+						width: 0.15rem;
+						height: 0.26rem;
+					}
+					span{
+						margin-left: 0.3rem;
+					}
+				}
+			}
+			.list{
+				ul{
+					li{	
+						padding-left: 0.4rem;
+						height: 1.2rem;
+						line-height: 1.2rem;
+						font-size: 0.3rem;
+						border-bottom:1px solid #acacac;
+						position:relative;
+						a{
+							display: inline-block;
+							width: 100%;
+							height: 100%;
+							color: #666;
+							img{
+								width: 0.18rem;
+								height: 0.30rem;
+								position: absolute;
+								right: 0.35rem;
+								top: 50%;
+								transform: translateY(-50%);
+							}
+						}
+					}
+					li:last-child{
+						border:0;
+						img{
+							width: 0.6rem;
+							height: 0.44rem;
+							margin-top: 0.4rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.none{
+	display: none;
+}

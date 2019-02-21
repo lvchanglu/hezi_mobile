@@ -1,0 +1,101 @@
+.news_center {
+  background: #f1f1f1;
+}
+.news_center > h3 {
+  padding-top: 0.4rem;
+  color: #183074;
+  font-size: 0.4rem;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+.news_center .banner_new {
+  height: 4.66rem;
+  background: url('../img/newsbanner.png');
+  background-size: 100% 100%;
+}
+.news_center .banner_new .banner_contain {
+  padding: 1rem;
+}
+.news_center .banner_new .banner_contain h3 {
+  font-size: 0.5rem;
+  color: #fff;
+  margin-top: 0;
+  text-align: left;
+}
+.news_center .banner_new .banner_contain .hengxian {
+  width: 0.5rem;
+  height: 0.04rem;
+  background: #fff;
+  margin: 0.3rem 0;
+}
+.news_center .banner_new .banner_contain p {
+  font-size: 0.36rem;
+  color: #fff;
+  margin-bottom: 0.1rem;
+}
+.news_center .el_box {
+  text-align: center;
+}
+.news_center .el-tabs__nav {
+  text-align: center;
+  float: initial;
+}
+.news_center .el-tabs__active-bar {
+  display: none;
+}
+.news_center .el-tabs__nav-wrap::after {
+  height: 0;
+}
+.news_center .content {
+  width: 5.62rem;
+  background: #fff;
+  margin: 0 auto;
+}
+.news_center .content .new_item {
+  width: 5.11rem;
+  height: 5.42rem;
+  margin: 0 auto;
+  margin-top: 0.1rem;
+  overflow: hidden;
+}
+.news_center .content .new_item img {
+  width: 5.11rem;
+  height: 3.45rem;
+}
+.news_center .content .new_item > a {
+  display: inline-block;
+  height: 0.34rem;
+  line-height: 0.34rem;
+  margin-top: 0.2rem;
+  width: 5.11rem;
+  font-size: 0.3rem;
+  color: #183074;
+}
+.news_center .content .new_item .date {
+  margin-top: 0.15rem;
+  width: 5.11rem;
+  color: #333;
+  font-size: 0.28rem;
+  height: 0.7rem;
+  line-height: 0.7rem;
+  border-top: 1px solid #333;
+}
+.news_center .content .new_item .date .shuxian {
+  padding: 0 0.1rem;
+}
+.el-tabs__item {
+  color: #183074;
+  border: 1px solid #183074;
+  border-radius: 0.1rem;
+  padding: 0 0.2rem ! important;
+  margin: 0 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+}
+.is-active {
+  background: #183074;
+  color: #fff;
+}
+.el-tabs__item:hover {
+  color: #fff !important;
+}

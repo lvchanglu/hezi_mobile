@@ -1,0 +1,226 @@
+/* remember to define focus styles! */
+:focus { outline: 0; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+abbr, acronym { border: 0; font-variant: normal; }
+code, kbd, samp, tt { font-size: 100%; }
+a{text-decoration:none;}
+a:hover{
+    text-decoration: none;
+}
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input, button, textarea{ *font-size: 100%;}
+ol, ul { list-style: none; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table,tr,td { border-collapse: collapse; border-spacing: 0; margin:0;padding:0;}
+caption, th { text-align: left; }
+sup, sub { font-size: 100%; vertical-align: baseline; }
+
+/* remember to highlight anchors and inserts somehow! */
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+/**Common Css**/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+  font-size: 100%;
+  /* font-family: 
+  "SourceHanSansCN-Light",
+  "SourceHanSansCN-Regular",
+  "SourceHanSansCN-Bold" ,
+  "SourceHanSansCN-ExtraLight",
+  "SourceHanSansCN-ExtraLight",
+  "SourceHanSansCN-Normal",
+  "SourceHanSansCN-Heavy", 
+  "SourceHanSansCN-Medium" !important; */
+	font-family:	"Source Han Sans CN", "SourceHanSansCN" !important;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+a:focus {
+	outline: none;
+}
+p{
+	text-align:justify;
+}
+.fl { float: left; *display: inline;}
+/*文本超出显示省略号*/
+.ehn, .otw, .tow { text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+/*清除浮动*/
+.clearfix { clear: both; *zoom:1;}
+.clearfix:after { display: block; clear: both; content: "\0020"; visibility: hidden; height: 0; }
+
+@keyframes bannerAni {
+  from {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+    opacity: 0
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1
+  }
+}
+
+
+/* 自定义文字逐行上浮动画 start */
+
+.team-item[ready]
+.text-ani-title {
+  opacity: 0;
+  -webkit-animation: bannerAni .5s;
+  animation: bannerAni .5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.text-ani-subtitle{
+  opacity: 0;
+  -webkit-animation: bannerAni .6s .6s;
+  animation: bannerAni .6s .6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.text-ani-p1{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s .7s;
+  animation: bannerAni .5s .7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p2{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s .8s;
+  animation: bannerAni .5s .8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p3{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s .9s;
+  animation: bannerAni .5s .9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p4{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1s;
+  animation: bannerAni .5s 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p5{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1.1s;
+  animation: bannerAni .5s 1.1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p6{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1.2s;
+  animation: bannerAni .5s 1.2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p7{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1.3s;
+  animation: bannerAni .5s 1.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p8{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1.4s;
+  animation: bannerAni .5s 1.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p9{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1.5s;
+  animation: bannerAni .5s 1.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p10{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1.6s;
+  animation: bannerAni .5s 1.6s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.text-ani-p11{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1.7s;
+  animation: bannerAni .5s 1.7s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+} 
+.text-ani-p12{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1.8s;
+  animation: bannerAni .5s 1.8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.text-ani-p13{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 1.9s;
+  animation: bannerAni .5s 1.9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.text-ani-p14{
+  opacity: 0;
+  -webkit-animation: bannerAni .5s 2.0s;
+  animation: bannerAni .5s 2.0s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+/*  自定义文字逐行上浮动画  end*/

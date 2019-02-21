@@ -1,0 +1,68 @@
+.tv_banner {
+  height: 4.66rem;
+  background: url('../img/tv_banner.png');
+  background-size: 100% 100%;
+  margin-bottom: 0.8rem;
+}
+.tv_banner .banner_contain {
+  padding: 1.5rem  0.75rem;
+}
+.tv_banner .banner_contain h3 {
+  font-size: 0.5rem;
+  color: #fff;
+}
+.tv_banner .banner_contain .hengxian {
+  width: 0.5rem;
+  height: 0.04rem;
+  background: #fff;
+  margin: 0.3rem 0;
+}
+.tv_banner .banner_contain p {
+  font-size: 0.3rem;
+  color: #fff;
+  margin-bottom: 0.1rem;
+}
+.tv_container {
+  text-align: center;
+}
+.tv_container h3 {
+  color: #002f93;
+  font-size: 0.4rem;
+}
+.tv_container .title {
+  font-size: 0.28rem;
+  color: #333;
+  padding: 0.35rem 0 0.22rem 0;
+}
+.tv_container .mask {
+  visibility: visible;
+  z-index: 100;
+  width: 7.14rem;
+  height: 4rem;
+  border-radius: 0.15rem;
+  background: rgba(1, 1, 1, 0.2);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: url('../img/play.png') no-repeat 50% 50%;
+  background-size: 0.96rem 0.96rem;
+}
+.tv_container .play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0.96rem;
+  height: 0.96rem;
+}
+.tv_container video {
+  width: 7.14rem;
+  height: 4rem;
+  border-radius: 0.15rem;
+}
+.tv_container .swiper-container {
+  padding-bottom: 1.6rem;
+}
+.tv_container .swiper-pagination {
+  bottom: 0.8rem;
+}

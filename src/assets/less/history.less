@@ -1,0 +1,87 @@
+body{
+	font-size: 0.26rem;
+}
+// banner部分
+.history_banner{
+	height: 4.66rem;
+	background: url('../img/develop_1.png');
+	background-size: 100% 100%;
+	.banner_contain{
+		padding: 1rem;
+		h3{
+			font-size: 0.5rem;
+			color: #fff;
+		}
+		.hengxian{
+			width: 0.5rem;
+			height: 0.04rem;
+			background: #fff;
+			margin: 0.3rem 0;
+		}
+		p{
+			font-size: 0.36rem;
+			color: #fff;
+			margin-bottom: 0.1rem;
+		}
+	}
+}
+
+// 发展历程
+
+.history{
+	>div{
+		text-align: center;
+	}
+	.title_e{
+		margin-top:0.3rem;
+		font-size: 0.36rem;
+		color: #333;
+		font-weight: 600;
+	}
+	.title{
+		margin-top:0.2rem;
+		font-size:0.3rem;
+		color: #333;
+		font-weight:600;
+	}
+	ul{
+		.item{
+			margin-top:1rem;
+			img,.list{
+				// float: left;
+				display:inline-block;
+			}
+			img{
+				margin-left: 0.3rem;
+				width: 1.5rem;
+				height: 1.5rem;
+				border-radius: 50%;
+				vertical-align: middle;
+			}
+			.list{
+				padding-left: 0.4rem;
+				vertical-align: middle;
+				.list_title{
+					font-size: 0.36rem;
+					color: #002f87;
+					font-weight: 600;
+					margin-top: -0.1rem;
+				}
+				ul{
+					margin-top: 0.1rem;
+					li{
+						width: 4.8rem;
+						// overflow: auto;
+						white-space: normal;
+					}
+					li:first-child{
+						font-weight: bold;
+					}
+				}
+			}	
+		}
+		.item:last-child{
+			margin-bottom: 1rem;
+		}
+	}
+}
